@@ -12,7 +12,7 @@ services:
 
   mysql:
    container_name: v-mysql
-   image: mysql/mysql-server:5.1
+   image: mysql/mysql-server:6.0
    environment:
     MYSQL_DATABASE: blog
     MYSQL_ROOT_PASSWORD: 123456
